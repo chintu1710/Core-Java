@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chintu Chaure - Full Stack Developer Portfolio">
+  <title>Portfolio | Chintu Chaure</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading screen -->
+  <div id="loader">
+    <div class="loader-content">
+      <div class="loader-brand">CodeZenith</div>
+      <div class="loader-sub">Loading Portfolio...</div>
+      <div class="loader-line"><span id="loaderBar"></span></div>
+      <div class="loader-percent" id="loaderPercent">0%</div>
+    </div>
+  </div>
+
+  <header class="navbar">
+    <a href="#home" class="brand">Portfolio</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="page-glow glow-a"></div>
+  <div class="page-glow glow-b"></div>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero section">
+      <div class="hero-visual">
+        <div class="robot">
+          <div class="robot-head">
+            <span class="eye"></span><span class="eye"></span>
+          </div>
+          <div class="robot-body"></div>
+        </div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+
+      <div class="hero-content reveal">
+        <p class="mini-title">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Chintu Chaure</span> —<br><strong>Full Stack Developer</strong></h1>
+        <p class="hero-desc">
+          Full Stack Developer crafting modern, responsive web apps with clean UI
+          and robust backend architecture.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">♡ &nbsp; Hire Me</a>
+          <button class="btn ghost" id="cvButton">⇩ &nbsp; Download CV</button>
+          <a class="work" href="#projects">View My Work →</a>
+        </div>
+      </div>
+
+      <a class="scroll-hint" href="#about">↓</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p>WHO I AM</p>
+        <h2>About <span>Me</span></h2>
+        <i></i>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-card reveal">
+          <div class="avatar">CC</div>
+          <h3>Chintu Chaure</h3>
+          <p>Full Stack Developer</p>
+          <div class="about-pills"><span>Java</span><span>Web</span><span>Backend</span></div>
+        </div>
+        <div class="about-copy reveal">
+          <h3>Building digital experiences with <span>purpose.</span></h3>
+          <p>
+            I'm a Computer Science student and aspiring Java Full Stack Developer
+            who enjoys turning ideas into useful, responsive and user-friendly
+            applications.
+          </p>
+          <p>
+            My current focus is Core Java, Advanced Java, Spring Boot, databases,
+            frontend development and problem solving.
+          </p>
+          <div class="timeline">
+            <div><b>B.Tech Computer Science</b><small>RGPV · 2023–2027</small></div>
+            <div><b>Diploma in Computer Application & Accounting</b><small>RGCSM · 2024</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <p>WHAT I WORK WITH</p>
+        <h2>My <span>Skills</span></h2>
+        <i></i>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill reveal"><div class="skill-icon">◎</div><h3>HTML/CSS3</h3><div class="bar"><span style="--w:95%"></span></div><small>95%</small></div>
+        <div class="skill reveal"><div class="skill-icon">&lt;/&gt;</div><h3>JavaScript</h3><div class="bar"><span style="--w:90%"></span></div><small>90%</small></div>
+        <div class="skill reveal"><div class="skill-icon">JS</div><h3>React/Redux</h3><div class="bar"><span style="--w:90%"></span></div><small>90%</small></div>
+        <div class="skill reveal"><div class="skill-icon">≋</div><h3>Tailwind CSS</h3><div class="bar"><span style="--w:91%"></span></div><small>91%</small></div>
+        <div class="skill reveal"><div class="skill-icon">B</div><h3>Bootstrap</h3><div class="bar"><span style="--w:91%"></span></div><small>91%</small></div>
+        <div class="skill reveal"><div class="skill-icon">N</div><h3>Next.js</h3><div class="bar"><span style="--w:85%"></span></div><small>85%</small></div>
+        <div class="skill reveal"><div class="skill-icon">♡</div><h3>UI/UX Design</h3><div class="bar"><span style="--w:87%"></span></div><small>87%</small></div>
+        <div class="skill reveal"><div class="skill-icon">›_</div><h3>Node.js/Express.js</h3><div class="bar"><span style="--w:87%"></span></div><small>87%</small></div>
+        <div class="skill reveal"><div class="skill-icon">DB</div><h3>MongoDB</h3><div class="bar"><span style="--w:82%"></span></div><small>82%</small></div>
+        <div class="skill reveal"><div class="skill-icon">DB</div><h3>PostgreSQL</h3><div class="bar"><span style="--w:78%"></span></div><small>78%</small></div>
+        <div class="skill reveal"><div class="skill-icon">⌘</div><h3>Git</h3><div class="bar"><span style="--w:84%"></span></div><small>84%</small></div>
+        <div class="skill reveal"><div class="skill-icon">GH</div><h3>GitHub</h3><div class="bar"><span style="--w:88%"></span></div><small>88%</small></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p>SELECTED WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+        <i></i>
+        <div class="section-desc">A curated collection of full stack projects demonstrating my expertise in building modern, scalable web applications — from intuitive frontends to robust backend systems.</div>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project reveal">
+          <div class="project-img bike"><span>🚲</span></div>
+          <div class="project-content">
+            <h3>Bike-time – Immersive Experience</h3>
+            <p>Developed an interactive biking experience website featuring dynamic animations, route exploration, performance stats and a sleek responsive interface.</p>
+            <div class="tags"><span>React</span><span>Node.js</span><span>Framer Motion</span><span>Express.js</span><span>PostgreSQL</span><span>Tailwind CSS</span></div>
+            <a href="#" class="project-link">View Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-img portfolio-art"><span>&lt;/&gt;</span></div>
+          <div class="project-content">
+            <h3>3D Portfolio Website – Interactive & Animated</h3>
+            <p>A visually engaging portfolio featuring real-time 3D elements with smooth, fluid interactions using GSAP, and a responsive UI built with React and Tailwind CSS.</p>
+            <div class="tags"><span>React</span><span>Three.js</span><span>GSAP</span><span>Tailwind CSS</span><span>Vercel</span></div>
+            <a href="#" class="project-link">View Project ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-img ai-art"><span>✦</span></div>
+          <div class="project-content">
+            <h3>3D Website Landing Page</h3>
+            <p>A modern 3D landing page built with interactive sections, smooth animations and immersive visual effects for an engaging user experience.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>Three.js</span></div>
+            <a href="#" class="project-link">View Project ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="section-heading reveal">
+        <p>GET IN TOUCH</p>
+        <h2>Get In <span>Touch</span></h2>
+        <i></i>
+        <div class="section-desc">Have a project in mind or just want to say hello? Drop me a message and let's create something amazing together.</div>
+      </div>
+
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form reveal">
+          <label>Name</label>
+          <input id="name" required placeholder="Your name">
+          <label>Email</label>
+          <input id="email" type="email" required placeholder="your.email@example.com">
+          <label>Message</label>
+          <textarea id="message" required placeholder="Tell me about your project..."></textarea>
+          <button class="send btn primary" type="submit">Send Message&nbsp; ↗</button>
+        </form>
+
+        <div class="connect reveal">
+          <h3>Let's Connect</h3>
+          <p>I'm always excited to work on new projects and collaborate with amazing people.</p>
+          <div class="contact-item"><span class="contact-icon">✉</span><div><b>Email</b><small id="emailText">chintu.chaure@example.com</small></div></div>
+          <div class="contact-item"><span class="contact-icon blue">☎</span><div><b>Phone</b><small>+91 XXXXXXXXXX</small></div></div>
+          <div class="contact-item"><span class="contact-icon">⌖</span><div><b>Location</b><small>Indore, Madhya Pradesh, India</small></div></div>
+          <h4>Follow Me</h4>
+          <div class="socials">
+            <a href="https://github.com/chintu1710" target="_blank">GH</a>
+            <a href="https://www.linkedin.com/" target="_blank">in</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div><h3>Portfolio</h3><p>Building modern, high-performance web experiences through elegant design, clean code, and the latest technologies.</p></div>
+      <div><h4>Quick Links</h4><a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+      <div><h4>Get In Touch</h4><p>Email: chintu.chaure@example.com</p><p>Location: Indore, India</p></div>
+    </div>
+    <div class="copyright">© 2026 Chintu Chaure. All rights reserved.</div>
+  </footer>
+
+  <!-- AI Assistant -->
+  <button id="chatToggle" class="chat-toggle" aria-label="Open AI assistant">◌</button>
+  <div id="chatBox" class="chat-box">
+    <div class="chat-head"><b>AI Assistant</b><button id="chatClose">×</button></div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="bot-msg">Hi! I'm an AI assistant. How can I help you today?</div>
+    </div>
+    <form id="chatForm" class="chat-form">
+      <input id="chatInput" placeholder="Type a message..." autocomplete="off">
+      <button>➤</button>
+    </form>
+  </div>
+
+  <button id="topBtn" class="top-btn">↑ Top</button>
+  <div id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
