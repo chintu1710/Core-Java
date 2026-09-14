@@ -1,4 +1,4 @@
-package com.javabasic;
+ package com.javabasic;
 
 public class Anmstrong {
 	public static void main(String[] args) {

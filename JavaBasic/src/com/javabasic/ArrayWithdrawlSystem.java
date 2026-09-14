@@ -1,23 +1,21 @@
 package com.javabasic;
 
 public class ArrayWithdrawlSystem {
-	int[] Rs = { 500, 50, 20 };
+	public static void main(String[] args) {
 
-	int amount = 2550;
-	{
+		int amount = 2550;
+		int[] notes = {500, 1000, 2000, 50};
+		int count = 0;
 
-		for (int i = 0; i < Rs.length; i++) {
-			System.out.println(i);
-			int count = Rs;
-			amount = amount % Rs[i];
+		for (int i = 0; i < notes.length; i++) {
 
-		}
-		if (i <= 500) {
-			
-		} else {
+			count = amount / notes[i];
 
-		}
-		{
+			if (count > 0) {
+				System.out.println(notes[i] + "=" + count);
+
+				amount = amount % notes[i];
+			}
 		}
 	}
 
