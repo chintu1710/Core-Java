@@ -2,13 +2,14 @@ package in.co.rays.string;
 
 public class StringGoogle {
 	public static void main(String[] args) {
-		String name = "GOOGLE";
+		String name = "GooGLE";
+		String 	r = name.toUpperCase();
 
 		int count = 0;
 		{
-			for (int i = 0; i < name.length(); i++) {
+			for (int i = 0; i < r.length(); i++) {
 
-				if (name.charAt(i) == 'O')
+				if (r.charAt(i) == 'O')
 					count++;
 
 			}
