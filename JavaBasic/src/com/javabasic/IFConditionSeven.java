@@ -1,6 +1,6 @@
 package com.javabasic;
 
-public class IFConditionSeven {
+	public class IFConditionSeven {
 	public static void main(String[] args) {
 
 		for (int i = 1; i <= 100; i++) {

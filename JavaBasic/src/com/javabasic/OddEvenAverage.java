@@ -5,7 +5,6 @@ public class OddEvenAverage {
 		int n = 7;
 
 		int sum = 0;
-		int start = 1;
 
 		for (int i = 0; i < n; i++) {
 			int odd = n + (2 * i);

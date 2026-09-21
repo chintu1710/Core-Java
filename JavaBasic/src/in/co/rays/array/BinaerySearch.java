@@ -4,7 +4,7 @@ public class BinaerySearch {
 	public static void main(String[] args) {
 		int[] arr = { 10, 20, 30, 40, 50, 60 };
 
-		int search = 40;
+		int search = 50;
 		int low = 0;
 		int high = arr.length - 1;
 
@@ -12,10 +12,10 @@ public class BinaerySearch {
 			int mid = (low + high) / 2;
 
 			if (arr[mid] == search) {
-				System.out.println("Element found" + mid);
+				System.out.println("Element found" + arr[mid]);
 				break;
 				
-			}else if (search > arr[mid]) {
+			}else if (search >arr[mid]) {
 					low = mid + 1;
 					
 				} else {
