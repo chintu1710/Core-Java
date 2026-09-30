@@ -21,8 +21,10 @@ public class Shape {
 		this.colour = colour;
 	}
 	
-	public void area() {
+	public double area() {
 		System.out.println("This is a Shape Class");
+		return 0.0;
+	
 	}
 
 }
