@@ -9,7 +9,13 @@ public class TestStack {
 		Stack s = new Stack();
 		
 		
-		s.push(s)
+		s.push("Rohit");
+		s.push("Ram");
+		s.push("Shyam");
+		s.push("Chintu");
+		s.push("Karuna");
+		
+		System.out.println(s.peek());
 	}
 
 }

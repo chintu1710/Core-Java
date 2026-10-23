@@ -17,7 +17,7 @@ public class TestVectorA {
 
 		Stack s2 = new Stack();
 
-		if (s1 != null) {yhy
+		if (s1 != null) {
 			s2.push(s1.pop());
 		}
 		System.out.println(s2);
