@@ -2,9 +2,9 @@ package in.com.rays.comparable;
 
 public class Person implements Comparable<Person> {
 	
-	private int id;
-	private String name;
-	private int age;
+	public int id;
+	public String name;
+	public int age;
 	
 	
 	public Person(int id, String name, int age) {
@@ -19,11 +19,6 @@ public class Person implements Comparable<Person> {
 		return "ID = " + id + ", Name = " + name + ", Age = " + age;
 	}
 
-	@Override
-	public int compareTo(Person o) {
-		// TODO Auto-generated method stub
-		return this.id - o.id;
-	}
 	
 	
 
